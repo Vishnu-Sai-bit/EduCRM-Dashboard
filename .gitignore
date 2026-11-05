@@ -1,0 +1,28 @@
+# Ignore all non-HTML dashboard files
+build_perfect_dashboard.py
+sync_daily_leads.py
+EduCRM_Executive_Project_Documentation.*
+*.csv
+*.xlsx
+*.pbix
+*.dax
+*.m
+*.md
+!README.md
+
+# Dependencies & Node
+node_modules/
+package-lock.json
+package.json
+
+# Scratch & temporary scripts
+scratch/
+*.log
+*.tmp
+
+# Operating system artifacts
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
